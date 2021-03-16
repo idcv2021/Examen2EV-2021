@@ -56,6 +56,7 @@
             this.tImporte.Name = "tImporte";
             this.tImporte.Size = new System.Drawing.Size(103, 38);
             this.tImporte.TabIndex = 2;
+            this.tImporte.TextChanged += new System.EventHandler(this.TImporte_TextChanged);
             // 
             // tResultado
             // 
